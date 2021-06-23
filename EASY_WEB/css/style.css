@@ -1,0 +1,148 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	height:100%;
+	background-size:50%;
+}
+
+body {
+	display:block;
+}
+
+img{
+	border: 0;
+}
+
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -138px;
+    margin-top:  -109px;
+    z-index: 11;
+    text-align: center;
+    font-family: "Malgun Gothic", sans-serif;
+}
+#nav{
+	list-style: none;
+	position: fixed;
+	right: 44px;
+	z-index:50;
+	height:280px;
+	margin-top:40px;
+}
+#nav li{
+	margin: 0 0 10px;
+	height:10px;	
+}
+#nav li a{
+	opacity:0.4;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+}
+#nav li a:hover{
+	opacity:1;
+	
+}
+#nom {
+		opacity:1;
+	right:20px;
+	position:absolute;
+}
+#nom li a{
+	opacity:1;
+	display:none;
+	float:right;
+}
+
+#main{
+	background: url(../images/main.jpg) no-repeat fixed;
+	height:100%;
+	width:100%;
+    background-color: #fec56d;
+    background-size: auto;
+    background-position: center;
+	position:relative;
+    margin: 0 auto;
+	padding: 0;
+}
+
+#main a {
+    border:none;
+    background-color:transparent;
+opacity:0.6;
+bottom:15px;
+position:fixed;
+left:50%;
+width:30px;
+margin-left:-15px;
+z-index:20;
+-moz-transition: all 0.2s ease-in-out;
+-webkit-transition: all 0.2s ease-in-out;
+-o-transition:all 0.2s ease-in-out;
+}
+
+#main a:hover {
+opacity:1;
+}
+
+#board{
+	background: url(../images/sea.jpg) no-repeat fixed;
+	height:100%;
+	width:100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    padding-top:0;
+	overflow: hidden;
+	position:relative;
+	z-index:2;
+}
+
+#Introduce{
+	background: url(../images/sky.jpg) no-repeat fixed;
+	height:100%;
+	width:100%;
+    background-size: cover;
+    background-position: center;
+	margin: 0 auto;
+	padding-top:0;
+	overflow: hidden;
+}
+
+.Game_name{
+    color: white;
+    font-weight: bold;
+    font-size: 64px;
+    margin-bottom: 25px;
+}
+.Game_maker{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.content_list{
+    font-size: 0px;
+}
+.content_list>li{
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 20px;
+    font-size: 16px;
+
+}
+.content_list > li:last-child{
+    margin-right: 0;
+}
+
+.content_list >li>a{
+    color: white;
+}
+
